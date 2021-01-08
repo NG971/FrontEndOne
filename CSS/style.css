@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --clr-icons: #929292;
+    --clr-text: #fff;
+    --clr-bg-dark: #242424;
+    --clr-bg-light: #3b3b3b;
+    --clr-bg-accent: #ff7600;
+}
+
+body {
+    margin: 1em;
+    background-color: var(--clr-bg-dark);
+    color: var(--clr-text);
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.title {
+color: var(--clr-bg-accent);
+text-transform: uppercase;
+margin: 0;
+font-size: clamp(3rem, 10vw, 7rem);
+}
